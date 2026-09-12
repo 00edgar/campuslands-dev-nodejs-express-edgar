@@ -1,6 +1,8 @@
-# Ejercicio 01 - Node runtime y consola (Maria Montepeque)
+reset # Ejercicio 01 - Node runtime y consola
+## Desarrolador:
+*Edgar Manolo Polanco Sánchez*
 
-## Que hace
+### Que hace
 
 Script Node.js con tematica RPG que imprime informacion del runtime (version de Node,
 plataforma, PID) y luego registra una expedicion: recibe una distancia, mide el tiempo
@@ -16,6 +18,3 @@ Si la distancia no es un numero mayor a 0, lanza un error y el proceso termina c
 npm install
 npm start
 ```
-
-## Resultado esperado
-![Salida del script en consola](./image.png)

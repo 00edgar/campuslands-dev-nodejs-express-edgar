@@ -14,9 +14,9 @@ function logExpedition(distanceArg) {
     const elapsedMs = Number(process.hrtime.bigint() - start) / 1_000_000;
 
     let status = "sin explorar";
-    if (distance >= 50) status = "territorio legendario";
-    else if (distance >= 10) status = "zona peligrosa";
-    else status = "sendero seguro";
+    if (distance >= 50) status = "zona de alto riesgo";
+    else if (distance >= 10) status = "zona muerta";
+    else status = "area segura";
 
     return { distance, status, elapsedMs: Number(elapsedMs.toFixed(4)) };
 }
